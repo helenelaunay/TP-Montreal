@@ -1,0 +1,32 @@
+@import 'variables';
+
+/* Services */
+
+#services {
+    height: 100vh;
+    padding-left: 22vh;
+    #services-container {
+        height: 80vh;
+        padding-top: 12vh;
+        button {
+            padding-bottom: 12vh;
+            text-align: center;
+        }
+    }
+}
+
+.services-bloc {
+    padding: 5vh 1vh 12vh 10vh;
+    img {
+        width: 2vw;
+    }
+    
+    h2 {
+        color: $yellow;
+        font-size: 3.5em;
+    }
+    p {
+        font-size: 1.2em;
+    }
+}
+

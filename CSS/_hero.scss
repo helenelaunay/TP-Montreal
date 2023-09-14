@@ -1,0 +1,25 @@
+@import 'variables';
+
+/* Hero */
+
+#hero {
+    height: 75vh;
+    padding-left: 10vw;
+    h1 {
+        padding-top: 5vh;
+        font-size: 11em;
+        color: $yellow;
+        width: 60vw;
+    }
+    p {
+        width: 35vw;
+        font-size: 0.9em;
+        padding-bottom: 2vh;
+    }
+    button {
+        font-size: 1.2em;
+    }
+}
+
+
+

@@ -1,0 +1,12 @@
+@import 'variables';
+
+#yellow-sect {
+    background-color: $yellow;
+    height: 20vh;
+    p {
+        padding-left: 12vw;
+        padding-right: 11vw;
+        color: black;
+        font-size: 1.5em;
+    }
+}

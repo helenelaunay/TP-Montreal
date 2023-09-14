@@ -1,0 +1,71 @@
+/* colors */
+/* colors */
+#logo {
+  padding: 3vw;
+}
+
+/* colors */
+/* Hero */
+#hero {
+  height: 75vh;
+  padding-left: 10vw;
+}
+#hero h1 {
+  padding-top: 5vh;
+  font-size: 11em;
+  color: #FFDA00;
+  width: 60vw;
+}
+#hero p {
+  width: 35vw;
+  font-size: 0.9em;
+  padding-bottom: 2vh;
+}
+#hero button {
+  font-size: 1.2em;
+}
+
+/* colors */
+#yellow-sect {
+  background-color: #FFDA00;
+  height: 20vh;
+}
+#yellow-sect p {
+  padding-left: 12vw;
+  padding-right: 11vw;
+  color: black;
+  font-size: 1.5em;
+}
+
+/* colors */
+/* Services */
+#services {
+  height: 100vh;
+  padding-left: 22vh;
+}
+#services #services-container {
+  height: 80vh;
+  padding-top: 12vh;
+}
+#services #services-container button {
+  padding-bottom: 12vh;
+  text-align: center;
+}
+
+.services-bloc {
+  padding: 5vh 1vh 12vh 10vh;
+}
+.services-bloc img {
+  width: 2vw;
+}
+.services-bloc h2 {
+  color: #FFDA00;
+  font-size: 3.5em;
+}
+.services-bloc p {
+  font-size: 1.2em;
+}
+
+body {
+  font-family: "Abel", sans-serif;
+}/*# sourceMappingURL=style.css.map */
