@@ -1,0 +1,24 @@
+@import 'variables';
+
+#clients {
+    height: 600px;
+    #clients-text {
+        padding-left: 10vw;
+        padding-top: 8vw;
+        h2 {
+            font-size: 3.5em;
+            color: $yellow;
+            padding-bottom: 3vw;
+        }
+        p {
+            width: 50vw;
+            font-size: 1.3em;
+            padding-bottom: 60px;
+        }
+    }
+}
+
+#clients-logos {
+    width: 70vw;
+    padding-left: 11vw;
+}

@@ -1,5 +1,45 @@
 @import 'variables';
 
-#logo {
-    padding: 3vw;
+
+header {
+    height: 1000px;
+    padding-top: 50px;
+    #header-container {
+        width: 80vw;
+        height: 120px;
+    }
 }
+
+nav {
+    padding-top: 0;
+    padding-right: 60vw;
+    i {
+        background-color: $yellow;
+        color: #fff;
+        width: 2vw;
+        padding: 0.5vw;
+    }
+}
+
+
+#hero {
+    height: 850px;
+    padding-left: 10vw;
+    padding-top: 100px;
+    h1 {
+        padding-top: 50px;
+        font-size: 11em;
+        color: $yellow;
+        width: 60vw;
+    }
+    p {
+        width: 35vw;
+        font-size: 1em;
+        padding-bottom: 10px;
+    }
+    button {
+        font-size: 1.3em;
+    }
+}
+
+

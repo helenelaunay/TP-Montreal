@@ -1,0 +1,21 @@
+@import 'variables';
+
+/* Porfolio */
+
+#portfolio {
+    height: 1500px;
+    #text {
+        padding-left: 10vw;
+        padding-top: 8vw;
+        h2 {
+            color: $yellow;
+            font-size: 3.5em;
+            padding-bottom: 3vw;
+        }
+        p {
+            width: 50vw;
+            font-size: 1.3em;
+        }
+    }
+}
+

@@ -3,20 +3,21 @@
 /* Services */
 
 #services {
-    height: 100vh;
-    padding-left: 22vh;
+    height: 650px;
+    padding-left: 10vw;
     #services-container {
-        height: 80vh;
-        padding-top: 12vh;
-        button {
-            padding-bottom: 12vh;
-            text-align: center;
+        height: 400px;
+        padding-top: 100px;        
+        div button {
+            padding-top: 100px;
+            display: block;
+            margin: auto;
         }
     }
 }
 
 .services-bloc {
-    padding: 5vh 1vh 12vh 10vh;
+    height: 300px;
     img {
         width: 2vw;
     }

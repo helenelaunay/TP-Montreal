@@ -1,0 +1,45 @@
+@import 'variables';
+
+/* Contacts */
+
+#contacts {
+    height: 900px;
+    padding: 50px 10vw;
+    h2 {
+        font-size: 3.5em;
+        color: $yellow;
+        padding-bottom: 3vw;
+    }
+    p {
+        width: 50vw;
+        font-size: 1.3em;
+        padding-bottom: 50px;
+    }
+}
+
+form {
+    background-color: $gray;
+    padding: 50px;
+}
+
+form .form-label {
+    font-size: 1.2em;
+}
+
+form .form-control {
+    border-color: $yellow;
+}
+
+form button {
+    color: #fff;
+    font-size: 1.2em;
+    background-color: $yellow;
+    padding: 10px 15px;
+    border: $yellow;
+    border-radius: 10px;
+}
+
+#formGroupExampleInput3 {
+    color: black;
+    background-color: $gray;
+}

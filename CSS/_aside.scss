@@ -1,12 +1,15 @@
 @import 'variables';
 
-#yellow-sect {
+aside {
     background-color: $yellow;
-    height: 20vh;
+    height: 150px;
+    padding-top: 1vw;
     p {
+        width: 90vw;
         padding-left: 12vw;
         padding-right: 11vw;
+        padding-top: 20px;
         color: black;
-        font-size: 1.5em;
+        font-size: 1.4em;
     }
 }

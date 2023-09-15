@@ -1,14 +1,27 @@
 @import 'variables';
 
+/* Stats */
+
 #stats {
-    height: 150vh;
+    height: 330px;
     #stats-container {
-        height: 70vh;
+        width: 80vw;
+        padding: 60px 0;
     }
 }
 
 .stats-bloc {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
     img {
-        width: 0.5vw;
+        width: 1.5vw;
+    }
+    h3 {
+        font-size: 3.8em;
+    }
+    p {
+        color: $yellow;
+        font-size: 1.3em;
     }
 }
