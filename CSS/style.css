@@ -10,14 +10,20 @@ header #header-container {
 }
 
 nav {
+  width: 80px;
   padding-top: 0;
   padding-right: 60vw;
 }
-nav i {
+nav #nav-container {
+  width: 100%;
+}
+nav #nav-container a {
   background-color: #FFDA00;
+  padding: 10px 0 10px 15px;
+}
+nav #nav-container a i {
   color: #fff;
-  width: 2vw;
-  padding: 0.5vw;
+  width: 100%;
 }
 
 #hero {
@@ -40,6 +46,28 @@ nav i {
   font-size: 1.3em;
 }
 
+/******************************** Responsive **************************************/
+@media screen and (max-width: 1650px) {
+  header {
+    height: 1300px;
+  }
+}
+@media screen and (max-width: 600px) {
+  header {
+    height: 1150px;
+  }
+  #hero h1 {
+    font-size: 8em;
+  }
+}
+@media screen and (max-width: 430px) {
+  header {
+    height: 1150px;
+  }
+  #hero h1 {
+    font-size: 5em;
+  }
+}
 /* colors */
 aside {
   background-color: #FFDA00;
@@ -55,43 +83,72 @@ aside p {
   font-size: 1.4em;
 }
 
+/******************************** Responsive **************************************/
+@media screen and (max-width: 815px) {
+  aside {
+    height: 200px;
+  }
+  aside p {
+    font-size: 1.2em;
+  }
+}
+@media screen and (max-width: 385px) {
+  aside {
+    height: 230px;
+  }
+  aside p {
+    font-size: 1.1em;
+  }
+}
 /* colors */
 /* Services */
 #services {
-  height: 650px;
+  height: 700px;
   padding-left: 10vw;
 }
 #services #services-container {
   height: 400px;
-  padding-top: 100px;
+  padding-top: 50px;
 }
-#services #services-container div button {
-  padding-top: 100px;
-  display: block;
-  margin: auto;
+#services #button-services {
+  font-size: 1.2em;
 }
 
 .services-bloc {
   height: 300px;
 }
 .services-bloc img {
-  width: 2vw;
+  width: 50px;
 }
 .services-bloc h2 {
   color: #FFDA00;
   font-size: 3.5em;
 }
 .services-bloc p {
+  height: 50px;
   font-size: 1.2em;
 }
 
+/******************************** Responsive **************************************/
+@media screen and (max-width: 991px) {
+  #services {
+    height: 1200px;
+  }
+  #services #services-container {
+    height: 900px;
+    justify-content: center;
+  }
+  #services #services-container .services-bloc {
+    height: 200px;
+  }
+}
 /* colors */
 /* Stats */
 #stats {
   height: 330px;
 }
 #stats #stats-container {
-  width: 80vw;
+  width: 100vw;
   padding: 60px 0;
 }
 
@@ -101,20 +158,29 @@ aside p {
   justify-content: space-between;
 }
 .stats-bloc img {
-  width: 1.5vw;
+  width: 20%;
 }
 .stats-bloc h3 {
-  font-size: 3.8em;
+  font-size: 3.5em;
 }
 .stats-bloc p {
   color: #FFDA00;
   font-size: 1.3em;
 }
 
+/******************************** Responsive **************************************/
+@media screen and (max-width: 730px) {
+  #stats {
+    height: 900px;
+  }
+  #stats #stats-container {
+    flex-direction: column;
+  }
+}
 /* colors */
 /* Porfolio */
 #portfolio {
-  height: 1500px;
+  height: 1600px;
 }
 #portfolio #text {
   padding-left: 10vw;
@@ -130,6 +196,31 @@ aside p {
   font-size: 1.3em;
 }
 
+@media screen and (max-width: 1700px) {
+  #portfolio {
+    height: 1350px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  #portfolio {
+    height: 1200px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #portfolio {
+    height: 1050px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #portfolio {
+    height: 950px;
+  }
+}
+@media screen and (max-width: 800px) {
+  #portfolio {
+    height: 850px;
+  }
+}
 /* colors */
 #clients {
   height: 600px;
@@ -154,10 +245,31 @@ aside p {
   padding-left: 11vw;
 }
 
+/******************************** Responsive **************************************/
+@media screen and (max-width: 580px) {
+  #clients {
+    height: 800px;
+  }
+  #clients #clients-logos {
+    flex-direction: column;
+    align-items: center;
+    width: 70vw;
+    justify-content: space-between;
+  }
+  #clients #clients-logos img {
+    width: 60%;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 350px) {
+  #clients {
+    height: 900px;
+  }
+}
 /* colors */
 /* Contacts */
 #contacts {
-  height: 900px;
+  height: 1050px;
   padding: 50px 10vw;
 }
 #contacts h2 {
@@ -198,6 +310,26 @@ form button {
   background-color: #F2F2F2;
 }
 
+form #floatingTextarea {
+  height: 170px;
+}
+
+/******************************** Responsive **************************************/
+@media screen and (max-width: 680px) {
+  #contacts {
+    height: 1200px;
+  }
+}
+@media screen and (max-width: 375px) {
+  #contacts {
+    height: 1270px;
+  }
+}
+@media screen and (max-width: 350px) {
+  #contacts {
+    height: 1350px;
+  }
+}
 /* colors */
 /* Footer */
 footer #footer-infos {
@@ -205,7 +337,7 @@ footer #footer-infos {
   background-color: #FFDA00;
 }
 footer #footer-infos .footer-infos-bloc {
-  width: 15vw;
+  width: 250px;
 }
 footer #footer-infos p {
   font-size: 1.4em;
@@ -219,13 +351,27 @@ footer #footer-copyright {
 footer #footer-copyright p span {
   color: #FFDA00;
 }
-footer #footer-copyright #footer-copyright-logo {
+
+#footer-copyright-logo {
   padding-top: 20px;
 }
-footer #footer-copyright #footer-copyright-logo #footer-logo {
-  padding: 0 10px;
+#footer-copyright-logo #footer-logo {
+  display: flex;
 }
 
+/******************************** Responsive **************************************/
+@media screen and (max-width: 815px) {
+  #footer-infos {
+    height: 400px;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 340px) {
+  #footer-copyright p {
+    text-align: center;
+  }
+}
 body {
   font-family: "Abel", sans-serif;
 }/*# sourceMappingURL=style.css.map */

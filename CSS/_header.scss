@@ -11,15 +11,22 @@ header {
 }
 
 nav {
+    width: 80px;
     padding-top: 0;
     padding-right: 60vw;
-    i {
+    #nav-container {
+        width: 100%;
+        a {
         background-color: $yellow;
-        color: #fff;
-        width: 2vw;
-        padding: 0.5vw;
+        padding: 10px 0 10px 15px;
+            i {
+                color: #fff;
+                width: 100%;
+            }
+        }
     }
 }
+
 
 
 #hero {
@@ -43,3 +50,29 @@ nav {
 }
 
 
+/******************************** Responsive **************************************/
+
+@media screen and (max-width:1650px) {
+    header {
+        height: 1300px;
+    }
+
+    }
+
+@media screen and (max-width:600px) {
+    header {
+        height: 1150px;
+    }
+    #hero h1{
+        font-size: 8em;
+    }
+}
+
+@media screen and (max-width:430px) {
+    header {
+        height: 1150px;
+    }
+    #hero h1{
+        font-size: 5em;
+    }
+}

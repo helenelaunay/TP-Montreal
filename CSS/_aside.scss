@@ -13,3 +13,23 @@ aside {
         font-size: 1.4em;
     }
 }
+
+/******************************** Responsive **************************************/
+
+@media screen and (max-width:815px) {
+    aside {
+        height: 200px;
+        p {
+            font-size: 1.2em;
+        }
+    }
+}
+
+@media screen and (max-width:385px) {
+    aside {
+        height: 230px;
+        p {
+            font-size: 1.1em;
+        }
+    }
+}

@@ -19,12 +19,12 @@
 <!-- Header -->
 
     <header class="container-fluid bg-black text-white">
-        <div id="header-container" class="container-fluid d-flex justify-content-between">
+        <div id="header-container" class="d-flex justify-content-between">
             <div id="logo" class="align-self-end">
                 <img src="assets/Logo.png" alt="logo">
             </div>
             <nav class="navbar align-self-start">
-                <div class="nav-container">
+                <div class="nav-container nav-container-fluid">
                 <a class="navbar-brand" href="#">
                     <i class="fa-solid fa-bars"></i>
                 </a>
@@ -32,7 +32,7 @@
             </nav>
         </div>
 
-        <div id="hero" class="container-fluid bg-black text-white">
+        <div id="hero" class="bg-black text-white">
             <h1 class="text-uppercase">wake the design</h1>
             <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vestibulum ac diam sit amet 
                 quam vehicula elemen sed sit amet dui. Donec sollicitudin molestie malesuada. Nulla 
@@ -51,7 +51,7 @@
 
 <!-- Services -->
 
-    <section id="services" class="container-fluid">
+    <section id="services" class="container-fluid container-fluid d-flex flex-column align-items-center justify-content-around">
         <div id="services-container" class="container-fluid d-flex row">
             <div class="services-bloc col-lg-4 d-flex flex-column justify-content-between">
                 <img src="assets/design.png" alt="design">
@@ -71,9 +71,7 @@
                     ullamcorper et his.</p>
             </div>
         </div>
-        <div>
-            <button type="button" class="btn btn-outline-warning rounded-pill text-black bg-white">LAUNCH PROJECT NOW</button>
-        </div>
+            <button id="button-services" type="button" class="btn btn-outline-warning rounded-pill text-black bg-white">LAUNCH PROJECT NOW</button>
     </section>
 
 
@@ -114,15 +112,15 @@
                 Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
         </div>
         <div id="gallery" class="container-fluid row">
-            <img src="assets/photo.png" class="col-lg-4 p-0" alt="photo1">
-            <div class="col-lg-8 p-0">
+            <img src="assets/photo.png" class="col-4 p-0" alt="photo1">
+            <div class="col-8 p-0">
                 <div class="row p-0">
-                    <img src="assets/photo2.png" class="col-lg-6  p-0" alt="photo2">
-                    <img src="assets/photo3.png" class="col-lg-6  p-0" alt="photo3">
-                    <div class="row p-0">
-                        <img src="assets/photo4.png" class="col-lg-6  p-0" alt="photo4">
-                        <img src="assets/photo5.png" class="col-lg-6  p-0" alt="photo5">
-                    </div>
+                    <img src="assets/photo2.png" class="col-6  p-0" alt="photo2">
+                    <img src="assets/photo3.png" class="col-6  p-0" alt="photo3">
+                </div>
+                <div class="row p-0">
+                    <img src="assets/photo4.png" class="col-6  p-0" alt="photo4">
+                    <img src="assets/photo5.png" class="col-6  p-0" alt="photo5">
                 </div>
             </div>
         </div>
@@ -138,11 +136,11 @@
                 <p class="text-uppercase">Congue leo eget malesuada. Vivamus magna justo, lacinia eget consectetur 
                     sed, convallis at tellus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
             </div>
-                <div id="clients-logos" class="d-flex justify-content-between">
-                <img src="assets/Logo1.png" alt="logo1">
-                <img src="assets/Logo2.png" alt="logo2">
-                <img src="assets/Logo3.png" alt="logo3">
-                <img src="assets/Logo4.png" alt="logo4">
+                <div id="clients-logos" class="d-flex justify-content-between row">
+                <img src="assets/Logo1.png" class="col-lg-2 col-sm-3" alt="logo1">
+                <img src="assets/Logo2.png" class="col-lg-2 col-sm-3" alt="logo2">
+                <img src="assets/Logo3.png" class="col-lg-2 col-sm-3" alt="logo3">
+                <img src="assets/Logo4.png" class="col-lg-2 col-sm-3" alt="logo4">
             </div>
         </div>
     </section>
@@ -171,7 +169,7 @@
               </div>
               <div class="mb-3">
                 <label for="formGroupExampleInput2" class="form-label">Message</label>
-                <text-area id="floatingTextarea" class="form-control" rows="4" cols="50" placeholder=""></text-area>
+                <text-area id="floatingTextarea" class="form-control" placeholder=""></text-area>
               </div>
               <div class="mb-3">
               <button type="submit">Envoyer</button>
@@ -201,7 +199,7 @@
             </div>
             <div id="footer-copyright" class="bg-black text-white d-flex flex-column align-items-center justify-content-center">
                 <p>© 2016 - <span>Montreal</span> All Right Reserved</p>
-                <div id="footer-copyright-logo">
+                <div id="footer-copyright-logo d-flex flex-row bg-black">
                     <i class="footer-logo fa-brands fa-facebook-f"></i>
                     <i class="footer-logo fa-brands fa-twitter"></i>
                     <i class="footer-logo fa-solid fa-globe"></i>

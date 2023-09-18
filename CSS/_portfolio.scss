@@ -3,7 +3,7 @@
 /* Porfolio */
 
 #portfolio {
-    height: 1500px;
+    height: 1600px;
     #text {
         padding-left: 10vw;
         padding-top: 8vw;
@@ -19,3 +19,32 @@
     }
 }
 
+@media screen and (max-width:1700px) {
+    #portfolio {
+        height: 1350px;
+            }
+        }
+
+@media screen and (max-width:1400px) {
+    #portfolio {
+        height: 1200px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    #portfolio {
+        height: 1050px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    #portfolio {
+        height: 950px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    #portfolio {
+        height: 850px;
+    }
+}

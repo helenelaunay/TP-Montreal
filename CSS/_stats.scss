@@ -5,7 +5,7 @@
 #stats {
     height: 330px;
     #stats-container {
-        width: 80vw;
+        width: 100vw;
         padding: 60px 0;
     }
 }
@@ -15,13 +15,27 @@
     display: flex;
     justify-content: space-between;
     img {
-        width: 1.5vw;
+        width: 20%;
     }
     h3 {
-        font-size: 3.8em;
+        font-size: 3.5em;
     }
     p {
         color: $yellow;
         font-size: 1.3em;
     }
+}
+
+
+/******************************** Responsive **************************************/
+
+@media screen and (max-width:730px) {
+    #stats {
+        height: 900px;
+        #stats-container {
+            flex-direction: column;
+        }
+    }
+
+
 }

@@ -3,31 +3,46 @@
 /* Services */
 
 #services {
-    height: 650px;
+    height: 700px;
     padding-left: 10vw;
     #services-container {
         height: 400px;
-        padding-top: 100px;        
-        div button {
-            padding-top: 100px;
-            display: block;
-            margin: auto;
-        }
+        padding-top: 50px;
     }
+    #button-services {
+        font-size: 1.2em;
+    } 
 }
 
 .services-bloc {
     height: 300px;
     img {
-        width: 2vw;
+        width: 50px;
     }
-    
     h2 {
         color: $yellow;
         font-size: 3.5em;
     }
     p {
+        height: 50px;
         font-size: 1.2em;
+    }
+}
+
+
+/******************************** Responsive **************************************/
+
+@media screen and (max-width:991px) {
+    #services {
+        height: 1200px;
+        #services-container {
+            height: 900px;
+            justify-content: center;
+            .services-bloc {
+                height: 200px;
+
+            }
+        }
     }
 }
 

@@ -6,7 +6,7 @@ footer #footer-infos {
     height: 300px;
     background-color: $yellow;
     .footer-infos-bloc {
-        width: 15vw;
+        width: 250px;
     }
     p {
         font-size: 1.4em;
@@ -20,11 +20,27 @@ footer #footer-copyright {
     p span{
         color: $yellow;
     }
-    #footer-copyright-logo {
-        padding-top: 20px;
+}
 
-        #footer-logo{
-            padding: 0 10px;
-        }
+#footer-copyright-logo {
+    padding-top: 20px;
+    #footer-logo {
+        display: flex;
+    }
+}
+
+/******************************** Responsive **************************************/
+
+@media screen and (max-width:815px) {
+    #footer-infos {
+        height: 400px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:340px) {
+    #footer-copyright p {
+        text-align: center;
     }
 }
