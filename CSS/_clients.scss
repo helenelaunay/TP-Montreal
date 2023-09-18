@@ -25,6 +25,12 @@
 
 /******************************** Responsive **************************************/
 
+@media screen and (max-width:1190px) {
+    #clients {
+        height: 500px;
+    }
+}
+
 @media screen and (max-width:580px) {
     #clients {
         height: 800px;

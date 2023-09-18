@@ -5,26 +5,25 @@ header {
     height: 1000px;
     padding-top: 50px;
     #header-container {
-        width: 80vw;
+        width: 90vw;
         height: 120px;
+        padding-left: 10vw;
     }
 }
 
 nav {
     width: 80px;
     padding-top: 0;
-    padding-right: 60vw;
-    #nav-container {
-        width: 100%;
-        a {
-        background-color: $yellow;
+    padding-right: 0;
+    .nav-container {
+        width: 50px;
+        background-color: $yellow !important;
         padding: 10px 0 10px 15px;
-            i {
+        a i {
                 color: #fff;
                 width: 100%;
             }
         }
-    }
 }
 
 

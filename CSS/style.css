@@ -5,23 +5,22 @@ header {
   padding-top: 50px;
 }
 header #header-container {
-  width: 80vw;
+  width: 90vw;
   height: 120px;
+  padding-left: 10vw;
 }
 
 nav {
   width: 80px;
   padding-top: 0;
-  padding-right: 60vw;
+  padding-right: 0;
 }
-nav #nav-container {
-  width: 100%;
-}
-nav #nav-container a {
-  background-color: #FFDA00;
+nav .nav-container {
+  width: 50px;
+  background-color: #FFDA00 !important;
   padding: 10px 0 10px 15px;
 }
-nav #nav-container a i {
+nav .nav-container a i {
   color: #fff;
   width: 100%;
 }
@@ -246,6 +245,11 @@ aside p {
 }
 
 /******************************** Responsive **************************************/
+@media screen and (max-width: 1190px) {
+  #clients {
+    height: 500px;
+  }
+}
 @media screen and (max-width: 580px) {
   #clients {
     height: 800px;
@@ -354,9 +358,6 @@ footer #footer-copyright p span {
 
 #footer-copyright-logo {
   padding-top: 20px;
-}
-#footer-copyright-logo #footer-logo {
-  display: flex;
 }
 
 /******************************** Responsive **************************************/
