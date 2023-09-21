@@ -29,17 +29,16 @@ nav {
 
 
 #hero {
-    height: 850px;
     padding-left: 10vw;
     padding-top: 100px;
     h1 {
         padding-top: 50px;
         font-size: 11em;
         color: $yellow;
-        width: 60vw;
+        width: 60%;
     }
     p {
-        width: 35vw;
+        width: 45%;
         font-size: 1em;
         padding-bottom: 10px;
     }
@@ -53,25 +52,73 @@ nav {
 
 @media screen and (max-width:1650px) {
     header {
-        height: 1300px;
-    }
-
-    }
-
-@media screen and (max-width:600px) {
-    header {
-        height: 1150px;
-    }
-    #hero h1{
-        font-size: 8em;
+        height: 1000px;
     }
 }
 
-@media screen and (max-width:430px) {
+@media screen and (max-width:1320px) {
     header {
-        height: 1150px;
+        height: 1200px;
+    }
+}
+
+@media screen and (max-width:1170px) {
+    header {
+        height: 900px;
+    }
+    #hero h1{
+        font-size: 9.5em;
+        width: 70vw;
+    }
+    #hero p {
+        width: 80%;
+        }
+    }
+
+@media screen and (max-width:860px) {
+    header {
+        height: 850px;
+        }
+        #hero h1{
+            font-size: 7em;
+        }
+        #hero p {
+            width: 80%;
+            font-size: 1em;
+        }
+}    
+
+@media screen and (max-width:635px) {
+    header {
+        height: 800px;
+    }
+    #hero h1{
+        font-size: 6em;
+        
+        width: 90%;
+    }
+    #hero p {
+        width: 80%;
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width:500px) {
+    header {
+        height: 700px;
     }
     #hero h1{
         font-size: 5em;
+        padding-top: 10px;
+    }
+    #hero p {
+        width: 90%;
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width:418px) {
+    header {
+        height: 800px;
     }
 }

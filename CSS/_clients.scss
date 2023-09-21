@@ -28,12 +28,18 @@
 @media screen and (max-width:1190px) {
     #clients {
         height: 500px;
+        #clients-text p {
+                width: 75%;
+            }
     }
 }
 
 @media screen and (max-width:580px) {
     #clients {
-        height: 800px;
+        height: 750px;
+        #clients-text p {
+            width: 90%;
+        }
         #clients-logos {
             flex-direction: column;
             align-items: center;
@@ -49,7 +55,7 @@
 
 @media screen and (max-width:350px) {
     #clients {
-        height: 900px;
+        height: 750px;
     }
         
 }

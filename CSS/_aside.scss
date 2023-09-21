@@ -18,6 +18,16 @@ aside {
 
 @media screen and (max-width:815px) {
     aside {
+        height: 170px;
+        p {
+            width: 100%;
+            font-size: 1.3em;
+        }
+    }
+}
+
+@media screen and (max-width:525px) {
+    aside {
         height: 200px;
         p {
             font-size: 1.2em;

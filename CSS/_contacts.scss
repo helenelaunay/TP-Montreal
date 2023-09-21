@@ -51,20 +51,39 @@ form #floatingTextarea {
 
 /******************************** Responsive **************************************/
 
+@media screen and (max-width:1130px) {
+    #contacts-text p {
+            width: 75%;
+        }
+    }
+
+
 @media screen and (max-width:680px) {
     #contacts {
-        height: 1200px;
+        height: 1050px;
+        #contacts-text p {
+            width: 90%;
+        }
+    }
+}
+
+@media screen and (max-width:480px) {
+    #contacts {
+        height: 1110px;
     }
 }
 
 @media screen and (max-width:375px) {
     #contacts {
-        height: 1270px;
+        height: 1200px;
+        #contacts-text p {
+            width: 95%;
+        }
     }
 }
 
 @media screen and (max-width:350px) {
     #contacts {
-        height: 1350px;
+        height: 1200px;
     }
 }

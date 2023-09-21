@@ -26,7 +26,6 @@ nav .nav-container a i {
 }
 
 #hero {
-  height: 850px;
   padding-left: 10vw;
   padding-top: 100px;
 }
@@ -34,10 +33,10 @@ nav .nav-container a i {
   padding-top: 50px;
   font-size: 11em;
   color: #FFDA00;
-  width: 60vw;
+  width: 60%;
 }
 #hero p {
-  width: 35vw;
+  width: 45%;
   font-size: 1em;
   padding-bottom: 10px;
 }
@@ -48,23 +47,67 @@ nav .nav-container a i {
 /******************************** Responsive **************************************/
 @media screen and (max-width: 1650px) {
   header {
-    height: 1300px;
+    height: 1000px;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1320px) {
   header {
-    height: 1150px;
+    height: 1200px;
+  }
+}
+@media screen and (max-width: 1170px) {
+  header {
+    height: 900px;
   }
   #hero h1 {
-    font-size: 8em;
+    font-size: 9.5em;
+    width: 70vw;
+  }
+  #hero p {
+    width: 80%;
   }
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 860px) {
   header {
-    height: 1150px;
+    height: 850px;
+  }
+  #hero h1 {
+    font-size: 7em;
+  }
+  #hero p {
+    width: 80%;
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 635px) {
+  header {
+    height: 800px;
+  }
+  #hero h1 {
+    font-size: 6em;
+    width: 90%;
+  }
+  #hero p {
+    width: 80%;
+    font-size: 0.9em;
+  }
+}
+@media screen and (max-width: 500px) {
+  header {
+    height: 700px;
   }
   #hero h1 {
     font-size: 5em;
+    padding-top: 10px;
+  }
+  #hero p {
+    width: 90%;
+    font-size: 0.9em;
+  }
+}
+@media screen and (max-width: 418px) {
+  header {
+    height: 800px;
   }
 }
 /* colors */
@@ -84,6 +127,15 @@ aside p {
 
 /******************************** Responsive **************************************/
 @media screen and (max-width: 815px) {
+  aside {
+    height: 170px;
+  }
+  aside p {
+    width: 100%;
+    font-size: 1.3em;
+  }
+}
+@media screen and (max-width: 525px) {
   aside {
     height: 200px;
   }
@@ -131,7 +183,7 @@ aside p {
 /******************************** Responsive **************************************/
 @media screen and (max-width: 991px) {
   #services {
-    height: 1200px;
+    height: 1100px;
   }
   #services #services-container {
     height: 900px;
@@ -147,7 +199,7 @@ aside p {
   height: 330px;
 }
 #stats #stats-container {
-  width: 100vw;
+  width: 100%;
   padding: 60px 0;
 }
 
@@ -174,6 +226,10 @@ aside p {
   }
   #stats #stats-container {
     flex-direction: column;
+    align-items: center;
+  }
+  .stats-bloc p {
+    padding-bottom: 30px;
   }
 }
 /* colors */
@@ -195,29 +251,65 @@ aside p {
   font-size: 1.3em;
 }
 
+/******************************** Responsive **************************************/
+@media screen and (max-width: 1850px) {
+  #portfolio {
+    height: 1500px;
+  }
+  #portfolio #text p {
+    width: 60%;
+  }
+}
 @media screen and (max-width: 1700px) {
   #portfolio {
     height: 1350px;
+  }
+  #portfolio #text p {
+    width: 70%;
   }
 }
 @media screen and (max-width: 1400px) {
   #portfolio {
     height: 1200px;
   }
+  #portfolio #text p {
+    width: 80%;
+  }
 }
 @media screen and (max-width: 1200px) {
   #portfolio {
     height: 1050px;
+  }
+  #portfolio #text p {
+    width: 80%;
   }
 }
 @media screen and (max-width: 1000px) {
   #portfolio {
     height: 950px;
   }
+  #portfolio #text p {
+    width: 90%;
+  }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   #portfolio {
     height: 850px;
+  }
+}
+@media screen and (max-width: 810px) {
+  #portfolio {
+    height: 800px;
+  }
+}
+@media screen and (max-width: 660px) {
+  #portfolio {
+    height: 750px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #portfolio {
+    height: 650px;
   }
 }
 /* colors */
@@ -249,10 +341,16 @@ aside p {
   #clients {
     height: 500px;
   }
+  #clients #clients-text p {
+    width: 75%;
+  }
 }
 @media screen and (max-width: 580px) {
   #clients {
-    height: 800px;
+    height: 750px;
+  }
+  #clients #clients-text p {
+    width: 90%;
   }
   #clients #clients-logos {
     flex-direction: column;
@@ -267,7 +365,7 @@ aside p {
 }
 @media screen and (max-width: 350px) {
   #clients {
-    height: 900px;
+    height: 750px;
   }
 }
 /* colors */
@@ -319,19 +417,35 @@ form #floatingTextarea {
 }
 
 /******************************** Responsive **************************************/
+@media screen and (max-width: 1130px) {
+  #contacts-text p {
+    width: 75%;
+  }
+}
 @media screen and (max-width: 680px) {
   #contacts {
-    height: 1200px;
+    height: 1050px;
+  }
+  #contacts #contacts-text p {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 480px) {
+  #contacts {
+    height: 1110px;
   }
 }
 @media screen and (max-width: 375px) {
   #contacts {
-    height: 1270px;
+    height: 1200px;
+  }
+  #contacts #contacts-text p {
+    width: 95%;
   }
 }
 @media screen and (max-width: 350px) {
   #contacts {
-    height: 1350px;
+    height: 1200px;
   }
 }
 /* colors */

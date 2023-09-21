@@ -19,32 +19,74 @@
     }
 }
 
+/******************************** Responsive **************************************/
+
+@media screen and (max-width:1850px) {
+    #portfolio {
+        height: 1500px;
+        #text p {
+            width: 60%;
+        }
+    }
+}
+
+
 @media screen and (max-width:1700px) {
     #portfolio {
         height: 1350px;
-            }
+        #text p {
+            width: 70%;
         }
+    }
+}
 
 @media screen and (max-width:1400px) {
     #portfolio {
         height: 1200px;
+        #text p {
+            width: 80%;
+        }
     }
 }
 
 @media screen and (max-width:1200px) {
     #portfolio {
         height: 1050px;
+        #text p {
+            width: 80%;
+        }
     }
 }
 
 @media screen and (max-width:1000px) {
     #portfolio {
         height: 950px;
+        #text p {
+            width: 90%;
+        }
     }
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:900px) {
     #portfolio {
         height: 850px;
+    }
+}
+
+@media screen and (max-width:810px) {
+    #portfolio {
+        height: 800px;
+    }
+}
+
+@media screen and (max-width:660px) {
+    #portfolio {
+        height: 750px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    #portfolio {
+        height: 650px;
     }
 }
